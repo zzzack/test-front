@@ -1,0 +1,306 @@
+{
+  "meta": {
+    "title": "海盐蓝治愈小屋 · 85㎡",
+    "area": 85,
+    "wallHeight": 2.8,
+    "wallThickness": 0.12,
+    "eyeHeight": 1.6,
+    "spawn": { "pos": [9.9, 1.6, 6.3], "yaw": 180 }
+  },
+
+  "quality": {
+    "frameBudgetMs": 26,
+    "probeFrames": 45,
+    "maxPixelRatio": 1.6,
+    "mobileMaxPixelRatio": 1.2
+  },
+
+  "lightPresets": {
+    "day": {
+      "label": "白天",
+      "exposure": 1.0,
+      "envIntensity": 1.0,
+      "sun": { "color": "#FFF6E8", "intensity": 3.2, "dir": [8, 6, -4] },
+      "hemi": { "sky": "#EAF3F8", "ground": "#D9D2C8", "intensity": 0.55 },
+      "lampIntensity": 0.35,
+      "pointScale": 0.15,
+      "bloom": 0.25,
+      "bg": "#EAF2F7"
+    },
+    "dusk": {
+      "label": "黄昏",
+      "exposure": 0.95,
+      "envIntensity": 0.55,
+      "sun": { "color": "#FFB877", "intensity": 1.6, "dir": [10, 1.6, -1] },
+      "hemi": { "sky": "#E7C9A8", "ground": "#8E8377", "intensity": 0.3 },
+      "lampIntensity": 2.2,
+      "pointScale": 1.2,
+      "bloom": 0.55,
+      "bg": "#F0C79B"
+    },
+    "night": {
+      "label": "夜晚",
+      "exposure": 0.9,
+      "envIntensity": 0.12,
+      "sun": { "color": "#9FB6D8", "intensity": 0.25, "dir": [4, 8, -6] },
+      "hemi": { "sky": "#26344A", "ground": "#1A1A20", "intensity": 0.18 },
+      "lampIntensity": 4.5,
+      "pointScale": 2.6,
+      "bloom": 0.85,
+      "bg": "#1B2433"
+    }
+  },
+
+  "floorPresets": {
+    "tileWhite": { "label": "白釉大板砖", "tex": "tile", "color": "#F4F2EE", "roughness": 0.32, "metalness": 0.0, "clearcoat": 0.45, "clearcoatRoughness": 0.25, "repeat": [4, 4] },
+    "woodHerringbone": { "label": "人字拼木地板", "tex": "wood", "color": "#E5D8C6", "roughness": 0.55, "metalness": 0.0, "clearcoat": 0.2, "repeat": [3, 3] },
+    "microCement": { "label": "微水泥", "tex": "cement", "color": "#E3E1DC", "roughness": 0.78, "metalness": 0.0, "repeat": [3, 3] },
+    "tileDot": { "label": "波点马赛克", "tex": "dot", "color": "#F2ECE6", "roughness": 0.4, "clearcoat": 0.4, "repeat": [3, 3] }
+  },
+
+  "wallPresets": {
+    "cream": { "label": "奶油白", "color": "#F1ECE4", "roughness": 0.93 },
+    "salt": { "label": "海盐蓝", "color": "#C3D6E0", "roughness": 0.9 },
+    "blush": { "label": "蜜桃粉", "color": "#F1DCD7", "roughness": 0.9 },
+    "mint": { "label": "薄荷绿", "color": "#D7E6DC", "roughness": 0.9 }
+  },
+
+  "materials": {
+    "ceiling":        { "color": "#F8F6F2", "roughness": 0.95 },
+    "cabinetCream":   { "color": "#EBE3D6", "roughness": 0.5, "clearcoat": 0.35, "clearcoatRoughness": 0.35 },
+    "cabinetBlue":    { "color": "#A6C3D6", "roughness": 0.45, "clearcoat": 0.5, "clearcoatRoughness": 0.3 },
+    "cabinetBlueDeep":{ "color": "#7FA0BC", "roughness": 0.45, "clearcoat": 0.5, "clearcoatRoughness": 0.3 },
+    "saltWainscot":   { "color": "#9FBFD4", "roughness": 0.75 },
+    "fabricCream":    { "color": "#EFE9DF", "roughness": 0.98 },
+    "fabricMustard":  { "color": "#E0AE58", "roughness": 0.8, "clearcoat": 0.15 },
+    "fabricPlaid":    { "color": "#FFFFFF", "roughness": 0.95, "tex": "plaid", "repeat": [2, 2] },
+    "rugBlue":        { "color": "#A8CBD9", "roughness": 1.0 },
+    "rugSand":        { "color": "#E8E1D5", "roughness": 1.0 },
+    "lacquerRed":     { "color": "#BE2B33", "roughness": 0.22, "metalness": 0.1, "clearcoat": 1.0, "clearcoatRoughness": 0.05 },
+    "chrome":         { "color": "#DCE0E4", "roughness": 0.16, "metalness": 1.0 },
+    "screen":         { "color": "#0E1216", "roughness": 0.22, "metalness": 0.5 },
+    "wood":           { "color": "#DCC7A8", "roughness": 0.65 },
+    "porcelain":      { "color": "#FBFAF8", "roughness": 0.18, "clearcoat": 0.8 },
+    "tilePink":       { "color": "#EDC4C0", "roughness": 0.3, "clearcoat": 0.55 },
+    "plant":          { "color": "#6F9E66", "roughness": 0.9 },
+    "glass":          { "color": "#DFEAEE", "roughness": 0.04, "metalness": 0.0, "transmission": 0.92, "thickness": 0.02, "transparent": true, "opacity": 0.4 },
+    "curtain":        { "color": "#F6F4F0", "roughness": 0.95, "transparent": true, "opacity": 0.72 },
+    "artBlue":        { "color": "#2E86C8", "roughness": 0.85 },
+    "bulb":           { "color": "#FFF7E6", "roughness": 0.35, "emissive": "#FFE6B8", "emissiveIntensity": 1.0, "lamp": true },
+    "bulbCool":       { "color": "#F2FAFF", "roughness": 0.35, "emissive": "#CFE6FF", "emissiveIntensity": 1.0, "lamp": true }
+  },
+
+  "walls": [
+    { "a": [0, 0], "b": [11, 0], "holes": [
+      { "at": 2.0, "w": 1.6, "y0": 0.9, "y1": 2.4, "type": "window" },
+      { "at": 6.8, "w": 1.4, "y0": 0.9, "y1": 2.4, "type": "window" },
+      { "at": 9.6, "w": 1.2, "y0": 1.0, "y1": 2.2, "type": "window" } ] },
+    { "a": [11, 0], "b": [11, 7], "holes": [
+      { "at": 4.0, "w": 2.4, "y0": 0.08, "y1": 2.5, "type": "window" } ] },
+    { "a": [11, 7], "b": [0, 7], "holes": [
+      { "at": 1.0, "w": 1.0, "y0": 0, "y1": 2.1, "type": "door" },
+      { "at": 8.5, "w": 1.8, "y0": 0.9, "y1": 2.4, "type": "window" } ] },
+    { "a": [0, 7], "b": [0, 0], "holes": [
+      { "at": 1.4, "w": 1.2, "y0": 0.9, "y1": 2.4, "type": "window" },
+      { "at": 5.6, "w": 1.0, "y0": 1.2, "y1": 2.2, "type": "window" } ] },
+
+    { "a": [4.4, 0], "b": [4.4, 7], "holes": [
+      { "at": 1.2, "w": 0.9, "y0": 0, "y1": 2.1, "type": "door" },
+      { "at": 3.4, "w": 0.85, "y0": 0, "y1": 2.1, "type": "door" },
+      { "at": 5.6, "w": 0.9, "y0": 0, "y1": 2.1, "type": "door" } ] },
+    { "a": [0, 2.4], "b": [4.4, 2.4], "holes": [] },
+    { "a": [2.6, 2.4], "b": [2.6, 4.4], "holes": [
+      { "at": 1.0, "w": 0.8, "y0": 0, "y1": 2.1, "type": "door" } ] },
+    { "a": [0, 4.4], "b": [4.4, 4.4], "holes": [] },
+    { "a": [8.0, 0], "b": [8.0, 2.4], "holes": [
+      { "at": 1.3, "w": 1.6, "y0": 0, "y1": 2.2, "type": "door" } ] },
+    { "a": [8.0, 2.4], "b": [11, 2.4], "holes": [] },
+    { "a": [5.6, 2.4], "b": [8.0, 2.4], "holes": [
+      { "at": 1.2, "w": 2.0, "y0": 0, "y1": 2.45, "type": "door" } ] },
+    { "a": [8.6, 5.6], "b": [8.6, 7.0], "holes": [] }
+  ],
+
+  "rooms": [
+    {
+      "id": "entry", "name": "玄关", "rect": [5.6, 5.6, 11.0, 7.0],
+      "floor": "tileWhite", "wall": "cream", "neighbors": ["living", "hall"],
+      "items": [
+        { "type": "round", "pos": [9.85, 0.55, 5.95], "size": [2.1, 0.9, 0.42], "r": 0.05, "mat": "cabinetCream", "solid": true,
+          "info": { "name": "悬空鞋柜", "size": "2100×420×900mm", "material": "海盐奶油色无把手饰面板", "price": "¥4,280" } },
+        { "type": "box", "pos": [9.85, 1.01, 5.95], "size": [2.16, 0.04, 0.46], "mat": "porcelain" },
+        { "type": "round", "pos": [8.95, 1.55, 5.95], "size": [0.62, 2.5, 0.42], "r": 0.04, "mat": "cabinetCream", "solid": true,
+          "info": { "name": "到顶高柜", "size": "620×420×2500mm", "material": "多层实木基材 + 亚光烤漆", "price": "¥6,150" } },
+        { "type": "cyl", "pos": [10.5, 1.18, 5.9], "size": [0.03, 0.03, 0.32], "mat": "lacquerRed" },
+        { "type": "sphere", "pos": [10.5, 1.4, 5.9], "size": [0.17, 0.17, 0.17], "mat": "lacquerRed",
+          "info": { "name": "蘑菇台灯", "size": "Ø340×420mm", "material": "红色烤漆铝合金", "price": "¥1,180" } },
+        { "type": "sphere", "pos": [10.5, 1.33, 5.9], "size": [0.12, 0.12, 0.12], "mat": "bulb", "lamp": true },
+        { "type": "box", "pos": [9.4, 1.9, 6.9], "size": [0.7, 1.0, 0.04], "mat": "artBlue",
+          "info": { "name": "抽象海盐挂画", "size": "700×1000mm", "material": "亚麻布面 + 实木内框", "price": "¥890" } },
+        { "type": "instanced", "geom": "cyl", "size": [0.055, 0.055, 0.02], "mat": "bulb", "lamp": true,
+          "instances": [[7.2, 2.78, 6.3], [9.9, 2.78, 6.5]] }
+      ]
+    },
+    {
+      "id": "living", "name": "客厅", "rect": [5.6, 2.4, 11.0, 5.6],
+      "floor": "tileWhite", "wall": "cream", "neighbors": ["entry", "dining", "hall", "kitchen"],
+      "items": [
+        { "type": "box", "pos": [9.5, 1.35, 2.55], "size": [2.9, 2.7, 0.1], "mat": "cabinetCream" },
+        { "type": "box", "pos": [9.5, 1.45, 2.48], "size": [1.62, 0.95, 0.06], "mat": "screen",
+          "info": { "name": "75″ 壁挂电视", "size": "1670×960×60mm", "material": "全面屏 + 隐藏式壁挂", "price": "¥6,999" } },
+        { "type": "round", "pos": [9.4, 0.16, 2.78], "size": [3.2, 0.32, 0.4], "r": 0.06, "mat": "cabinetCream", "solid": true,
+          "info": { "name": "悬浮电视柜", "size": "3200×400×320mm", "material": "岩板台面 + 奶油白柜体", "price": "¥5,600" } },
+        { "type": "box", "pos": [9.4, 0.02, 2.78], "size": [3.0, 0.02, 0.3], "mat": "bulb", "lamp": true },
+        { "type": "round", "pos": [8.6, 0.32, 4.75], "size": [2.6, 0.64, 0.98], "r": 0.16, "mat": "fabricCream", "solid": true,
+          "info": { "name": "云朵模块沙发", "size": "2600×980×720mm", "material": "羊羔绒面料 + 高回弹海绵", "price": "¥12,800" } },
+        { "type": "round", "pos": [8.6, 0.62, 5.12], "size": [2.6, 0.56, 0.28], "r": 0.12, "mat": "fabricCream" },
+        { "type": "instanced", "geom": "round", "size": [0.5, 0.5, 0.16], "r": 0.07, "mat": "fabricMustard",
+          "instances": [[7.85, 0.78, 4.95, 0.15], [9.35, 0.78, 4.95, -0.12]] },
+        { "type": "round", "pos": [8.6, 0.76, 4.9], "size": [0.5, 0.3, 0.14], "r": 0.05, "mat": "fabricPlaid" },
+        { "type": "box", "pos": [8.9, 0.008, 3.85], "size": [3.4, 0.016, 2.0], "mat": "rugBlue" },
+        { "type": "cyl", "pos": [7.15, 0.9, 3.0], "size": [0.02, 0.02, 1.8], "mat": "lacquerRed" },
+        { "type": "sphere", "pos": [7.15, 1.78, 3.25], "size": [0.34, 0.2, 0.34], "mat": "lacquerRed",
+          "info": { "name": "红色弧形落地灯", "size": "Ø340×1800mm", "material": "烤漆金属灯罩", "price": "¥1,650" } },
+        { "type": "sphere", "pos": [7.15, 1.7, 3.25], "size": [0.2, 0.12, 0.2], "mat": "bulb", "lamp": true },
+        { "type": "round", "pos": [10.3, 0.34, 3.5], "size": [0.85, 0.68, 0.85], "r": 0.1, "mat": "fabricPlaid", "solid": true,
+          "info": { "name": "蓝白格纹扶手椅", "size": "850×850×760mm", "material": "水洗棉格纹 + 电镀钢管", "price": "¥3,280" } },
+        { "type": "round", "pos": [10.3, 0.75, 3.85], "size": [0.85, 0.5, 0.16], "r": 0.07, "mat": "fabricPlaid" },
+        { "type": "box", "pos": [10.82, 1.3, 3.0], "size": [0.06, 2.5, 0.5], "mat": "curtain" },
+        { "type": "box", "pos": [10.82, 1.3, 5.0], "size": [0.06, 2.5, 0.5], "mat": "curtain" },
+        { "type": "instanced", "geom": "cyl", "size": [0.055, 0.055, 0.02], "mat": "bulb", "lamp": true,
+          "instances": [[6.6, 2.78, 3.2], [9.6, 2.78, 3.2], [6.6, 2.78, 5.0], [9.6, 2.78, 5.0]] }
+      ]
+    },
+    {
+      "id": "dining", "name": "餐厅", "rect": [5.6, 0.0, 8.0, 2.4],
+      "floor": "tileWhite", "wall": "cream", "neighbors": ["living", "kitchen", "hall"],
+      "items": [
+        { "type": "box", "pos": [6.8, 2.15, 0.35], "size": [2.1, 0.95, 0.4], "mat": "cabinetCream",
+          "info": { "name": "餐边吊柜", "size": "2100×400×950mm", "material": "无把手上翻门柜体", "price": "¥5,400" } },
+        { "type": "box", "pos": [6.8, 0.45, 0.35], "size": [2.1, 0.9, 0.45], "mat": "cabinetBlue", "solid": true },
+        { "type": "box", "pos": [6.8, 0.92, 0.35], "size": [2.16, 0.05, 0.5], "mat": "porcelain" },
+        { "type": "box", "pos": [6.8, 1.6, 0.22], "size": [2.0, 0.03, 0.2], "mat": "bulb", "lamp": true },
+        { "type": "round", "pos": [6.8, 0.38, 1.5], "size": [1.5, 0.72, 0.82], "r": 0.05, "mat": "wood", "solid": true,
+          "info": { "name": "圆角岛台餐桌", "size": "1500×820×760mm", "material": "白蜡木饰面 + 海盐蓝柜脚", "price": "¥4,900" } },
+        { "type": "instanced", "geom": "round", "size": [0.42, 0.85, 0.42], "r": 0.05, "mat": "cabinetBlue",
+          "instances": [[6.15, 0.42, 2.15, 0], [7.45, 0.42, 2.15, 0], [6.15, 0.42, 0.95, 3.14], [7.45, 0.42, 0.95, 3.14]] },
+        { "type": "cyl", "pos": [6.8, 2.25, 1.5], "size": [0.22, 0.22, 0.16], "mat": "porcelain",
+          "info": { "name": "升降餐吊灯", "size": "Ø440×160mm", "material": "亚克力柔光罩", "price": "¥1,290" } },
+        { "type": "cyl", "pos": [6.8, 2.16, 1.5], "size": [0.2, 0.2, 0.03], "mat": "bulb", "lamp": true }
+      ]
+    },
+    {
+      "id": "kitchen", "name": "厨房", "rect": [8.0, 0.0, 11.0, 2.4],
+      "floor": "tileWhite", "wall": "cream", "neighbors": ["dining", "living"],
+      "items": [
+        { "type": "box", "pos": [9.75, 0.45, 0.42], "size": [2.3, 0.9, 0.6], "mat": "cabinetBlue", "solid": true,
+          "info": { "name": "海盐蓝地柜", "size": "2300×600×900mm", "material": "实木复合门板 + 石英石台面", "price": "¥13,800" } },
+        { "type": "box", "pos": [9.75, 0.93, 0.42], "size": [2.36, 0.06, 0.64], "mat": "porcelain" },
+        { "type": "box", "pos": [10.6, 0.45, 1.55], "size": [0.6, 0.9, 1.6], "mat": "cabinetBlueDeep", "solid": true },
+        { "type": "box", "pos": [10.6, 0.93, 1.55], "size": [0.64, 0.06, 1.64], "mat": "porcelain" },
+        { "type": "box", "pos": [9.75, 2.15, 0.3], "size": [2.3, 0.75, 0.36], "mat": "cabinetCream",
+          "info": { "name": "白色吊柜", "size": "2300×360×750mm", "material": "米白框型门 + 长虹玻璃", "price": "¥7,600" } },
+        { "type": "box", "pos": [9.75, 1.72, 0.36], "size": [0.9, 0.14, 0.48], "mat": "screen" },
+        { "type": "box", "pos": [8.5, 0.9, 1.8], "size": [0.7, 1.8, 0.68], "mat": "porcelain", "solid": true,
+          "info": { "name": "十字对开冰箱", "size": "700×680×1800mm", "material": "白色玻璃面板", "price": "¥8,999" } },
+        { "type": "cyl", "pos": [9.1, 0.99, 0.42], "size": [0.13, 0.13, 0.1], "mat": "fabricMustard" },
+        { "type": "instanced", "geom": "cyl", "size": [0.06, 0.06, 0.02], "mat": "bulbCool", "lamp": true,
+          "instances": [[9.5, 2.78, 1.2]] }
+      ]
+    },
+    {
+      "id": "hall", "name": "走廊", "rect": [4.4, 0.0, 5.6, 7.0],
+      "floor": "tileWhite", "wall": "cream", "neighbors": ["entry", "living", "dining", "master", "dressing", "kids"],
+      "items": [
+        { "type": "instanced", "geom": "cyl", "size": [0.05, 0.05, 0.02], "mat": "bulb", "lamp": true,
+          "instances": [[5.0, 2.78, 1.0], [5.0, 2.78, 3.0], [5.0, 2.78, 5.0], [5.0, 2.78, 6.6]] }
+      ]
+    },
+    {
+      "id": "master", "name": "主卧", "rect": [0.0, 4.4, 4.4, 7.0],
+      "floor": "woodHerringbone", "wall": "cream", "neighbors": ["hall", "dressing"],
+      "items": [
+        { "type": "box", "pos": [2.2, 0.95, 4.53], "size": [4.1, 0.9, 0.04], "mat": "saltWainscot",
+          "info": { "name": "海盐蓝护墙板", "size": "4100×900mm", "material": "免漆木饰面 + 收口线条", "price": "¥3,400" } },
+        { "type": "round", "pos": [2.2, 0.22, 5.75], "size": [1.85, 0.44, 2.0], "r": 0.05, "mat": "cabinetCream", "solid": true },
+        { "type": "round", "pos": [2.2, 0.58, 5.8], "size": [1.8, 0.32, 1.95], "r": 0.1, "mat": "fabricCream",
+          "info": { "name": "1.8m 圆角软包床", "size": "1800×2000×950mm", "material": "科技布软包 + 排骨架", "price": "¥8,600" } },
+        { "type": "round", "pos": [2.2, 0.85, 4.82], "size": [1.9, 0.95, 0.14], "r": 0.06, "mat": "fabricCream" },
+        { "type": "instanced", "geom": "round", "size": [0.55, 0.14, 0.38], "r": 0.05, "mat": "porcelain",
+          "instances": [[1.85, 0.82, 5.05], [2.55, 0.82, 5.05]] },
+        { "type": "instanced", "geom": "round", "size": [0.42, 0.45, 0.4], "r": 0.05, "mat": "cabinetCream",
+          "instances": [[1.1, 0.23, 4.9], [3.3, 0.23, 4.9]] },
+        { "type": "box", "pos": [4.05, 1.25, 6.1], "size": [0.6, 2.5, 1.6], "mat": "cabinetCream", "solid": true,
+          "info": { "name": "到顶衣柜", "size": "1600×600×2500mm", "material": "无把手斜切开门", "price": "¥9,800" } },
+        { "type": "box", "pos": [0.55, 0.38, 6.4], "size": [0.9, 0.04, 0.5], "mat": "porcelain" },
+        { "type": "box", "pos": [0.55, 0.19, 6.4], "size": [0.85, 0.38, 0.45], "mat": "cabinetCream", "solid": true,
+          "info": { "name": "飘窗梳妆台", "size": "900×500×760mm", "material": "岩板台面 + 悬浮抽屉", "price": "¥2,700" } },
+        { "type": "box", "pos": [2.2, 0.006, 6.6], "size": [2.6, 0.012, 1.6], "mat": "rugBlue" },
+        { "type": "instanced", "geom": "sphere", "size": [0.13, 0.13, 0.13], "mat": "bulb", "lamp": true,
+          "instances": [[2.2, 2.42, 5.7], [1.95, 2.5, 5.5], [2.45, 2.5, 5.9], [2.0, 2.46, 5.95], [2.45, 2.46, 5.45]] },
+        { "type": "cyl", "pos": [2.2, 2.65, 5.7], "size": [0.03, 0.03, 0.3], "mat": "chrome" }
+      ]
+    },
+    {
+      "id": "kids", "name": "次卧", "rect": [0.0, 0.0, 4.4, 2.4],
+      "floor": "woodHerringbone", "wall": "salt", "neighbors": ["hall", "bath"],
+      "items": [
+        { "type": "round", "pos": [1.15, 0.22, 1.4], "size": [1.25, 0.44, 1.95], "r": 0.05, "mat": "cabinetCream", "solid": true },
+        { "type": "round", "pos": [1.15, 0.56, 1.4], "size": [1.2, 0.28, 1.9], "r": 0.09, "mat": "fabricCream",
+          "info": { "name": "1.2m 儿童床", "size": "1200×1900×850mm", "material": "环保 E0 板材 + 圆角处理", "price": "¥4,200" } },
+        { "type": "round", "pos": [1.15, 0.8, 0.55], "size": [1.25, 0.85, 0.12], "r": 0.06, "mat": "cabinetBlue" },
+        { "type": "box", "pos": [3.35, 0.72, 0.45], "size": [1.3, 0.04, 0.55], "mat": "wood" },
+        { "type": "box", "pos": [3.35, 0.35, 0.45], "size": [1.2, 0.7, 0.5], "mat": "cabinetCream", "solid": true,
+          "info": { "name": "学习书桌", "size": "1300×550×740mm", "material": "白蜡木台面 + 悬空柜", "price": "¥2,150" } },
+        { "type": "round", "pos": [3.35, 0.24, 1.15], "size": [0.42, 0.48, 0.42], "r": 0.05, "mat": "fabricMustard", "solid": true },
+        { "type": "box", "pos": [4.05, 1.25, 1.9], "size": [0.6, 2.5, 1.0], "mat": "cabinetCream", "solid": true },
+        { "type": "instanced", "geom": "box", "size": [0.4, 0.5, 0.03], "mat": "artBlue",
+          "instances": [[2.4, 1.85, 0.1], [2.9, 1.85, 0.1]] },
+        { "type": "box", "pos": [1.15, 0.006, 2.0], "size": [1.8, 0.012, 1.2], "mat": "rugSand" },
+        { "type": "instanced", "geom": "sphere", "size": [0.16, 0.16, 0.16], "mat": "bulb", "lamp": true,
+          "instances": [[2.2, 2.6, 1.2]] }
+      ]
+    },
+    {
+      "id": "bath", "name": "卫生间", "rect": [0.0, 2.4, 2.6, 4.4],
+      "floor": "tileDot", "wall": "blush", "neighbors": ["dressing", "kids"],
+      "items": [
+        { "type": "box", "pos": [1.3, 0.6, 2.47], "size": [2.5, 1.2, 0.03], "mat": "tilePink" },
+        { "type": "box", "pos": [0.07, 0.6, 3.4], "size": [0.03, 1.2, 1.9], "mat": "tilePink" },
+        { "type": "cyl", "pos": [0.75, 0.28, 3.95], "size": [0.42, 0.42, 0.56], "mat": "porcelain", "solid": true,
+          "info": { "name": "独立式浴缸", "size": "Ø840×560mm", "material": "亚克力一体成型", "price": "¥5,400" } },
+        { "type": "round", "pos": [2.25, 0.45, 3.2], "size": [0.5, 0.9, 1.2], "r": 0.04, "mat": "cabinetCream", "solid": true,
+          "info": { "name": "浴室柜", "size": "1200×500×900mm", "material": "陶瓷一体盆 + 防潮多层板", "price": "¥3,900" } },
+        { "type": "box", "pos": [2.25, 0.92, 3.2], "size": [0.54, 0.05, 1.24], "mat": "porcelain" },
+        { "type": "box", "pos": [2.5, 1.75, 3.2], "size": [0.06, 0.85, 1.1], "mat": "bulb", "lamp": true,
+          "info": { "name": "智能除雾镜柜", "size": "1100×140×850mm", "material": "铝合金柜体 + LED 灯带", "price": "¥2,600" } },
+        { "type": "box", "pos": [1.55, 1.3, 3.4], "size": [0.03, 2.2, 1.9], "mat": "glass" },
+        { "type": "cyl", "pos": [0.6, 2.2, 2.9], "size": [0.11, 0.11, 0.03], "mat": "chrome" },
+        { "type": "instanced", "geom": "cyl", "size": [0.28, 0.28, 0.04], "mat": "bulbCool", "lamp": true,
+          "instances": [[1.3, 2.76, 3.4]] }
+      ]
+    },
+    {
+      "id": "dressing", "name": "化妆间", "rect": [2.6, 2.4, 4.4, 4.4],
+      "floor": "woodHerringbone", "wall": "cream", "neighbors": ["hall", "bath"],
+      "items": [
+        { "type": "box", "pos": [3.5, 0.74, 2.72], "size": [1.6, 0.05, 0.5], "mat": "porcelain" },
+        { "type": "box", "pos": [3.5, 0.37, 2.72], "size": [1.5, 0.68, 0.45], "mat": "cabinetCream", "solid": true,
+          "info": { "name": "通顶化妆台", "size": "1600×500×740mm", "material": "亚光岩板 + 米白柜体", "price": "¥3,300" } },
+        { "type": "torus", "pos": [3.5, 1.06, 2.72], "size": [0.19, 0.019, 1], "mat": "lacquerRed",
+          "info": { "name": "红环化妆镜", "size": "Ø380mm", "material": "烤漆金属环 + 高清银镜", "price": "¥580" } },
+        { "type": "cyl", "pos": [3.5, 1.06, 2.73], "size": [0.18, 0.18, 0.01], "mat": "chrome", "rotX": 90 },
+        { "type": "round", "pos": [3.5, 0.23, 3.35], "size": [0.42, 0.46, 0.42], "r": 0.04, "mat": "chrome", "solid": true },
+        { "type": "box", "pos": [4.25, 1.25, 3.6], "size": [0.3, 2.5, 1.4], "mat": "cabinetCream", "solid": true },
+        { "type": "instanced", "geom": "cyl", "size": [0.055, 0.055, 0.02], "mat": "bulbCool", "lamp": true,
+          "instances": [[3.5, 2.78, 2.9], [3.5, 2.78, 3.9]] }
+      ]
+    }
+  ],
+
+  "pointLights": [
+    { "pos": [8.6, 2.4, 4.0], "color": "#FFE9C4", "distance": 9, "base": 1.0 },
+    { "pos": [2.2, 2.4, 5.8], "color": "#FFE3B8", "distance": 7, "base": 0.8 },
+    { "pos": [6.8, 2.3, 1.5], "color": "#FFEACB", "distance": 6, "base": 0.7 },
+    { "pos": [9.8, 2.4, 6.2], "color": "#FFDFB0", "distance": 5, "base": 0.6 }
+  ]
+}
